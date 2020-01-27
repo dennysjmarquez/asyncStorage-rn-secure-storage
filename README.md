@@ -6,4 +6,5 @@ This library helps to manage storage in an asynchronous way, with this library y
 
 Do not install this library with npm, use it as one more file of your development, place it in a folder of your development and import it where you need it.
 
-It depends on the library: **[](https://github.com/talut/rn-secure-storage)**
+It depends on the library: 
+**[](https://github.com/talut/rn-secure-storage)**
