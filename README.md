@@ -17,7 +17,7 @@ It depends on the library: **[https://github.com/talut/rn-secure-storage](https:
 
 ```javascript
 
-import { asyncStorageStack } from '../libs/asyncSecureStorage.lib';
+import { asyncStorageStack } from './asyncSecureStorage.lib';
 
 ```
 
