@@ -14,3 +14,10 @@ what would be your main folder of your development
 
 
 It depends on the library: **[https://github.com/talut/rn-secure-storage](https://github.com/talut/rn-secure-storage)**
+
+```javascript
+
+import { asyncStorageStack } from '../libs/asyncSecureStorage.lib';
+
+```
+
