@@ -23,9 +23,13 @@ import { asyncStorageStack } from '../libs/asyncSecureStorage.lib';
 
 **SET**
 ```javascript
+/**
+*
 * @param key {string} Establece el nombre de la key del Objeto JSON en el que se va a guardar la información
 * @param value {string | Object } Establece la información que se va a guardar
 * @param storageName {string} Establece el nombre del storage en que se va a guardar la información
+*
+*/
 asyncStorageStack.setData('key', 'value', 'storageName')
 .then((res) => {
 console.log(res);
@@ -37,9 +41,13 @@ console.log(err);
 **GET**
 
 ```javascript
- * @param storageName {string} Nombre del storage en el que se va a obtener la información
- * @param key {string | null} nombre de la key del Objeto JSON en el que se va a obtener la información,
- * si no se establece se obtiene la data completa del storage pasado en el parametro {storageName}
+/**
+*
+* @param storageName {string} Nombre del storage en el que se va a obtener la información
+* @param key {string | null} nombre de la key del Objeto JSON en el que se va a obtener la información,
+* si no se establece se obtiene la data completa del storage pasado en el parametro {storageName}
+*
+*/
 asyncStorageStack.getData('storageName', 'key').then((value) => {
 console.log(value) // Will return direct value
 }).catch((err) => {
