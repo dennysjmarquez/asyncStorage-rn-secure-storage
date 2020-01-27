@@ -7,6 +7,7 @@ This library helps to manage storage in an asynchronous way, with this library y
 Do not install this library with npm, use it as one more file of your development, place it in a folder of your development and import it where you need it.
 
 Example:
+
 what would be your main folder of your development
 
 **./app/libs/asyncSecureStorage.lib**
